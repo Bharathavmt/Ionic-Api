@@ -32,7 +32,13 @@ export class NetworkRequestService {
         return this.http.delete<any[]>(url, { headers: headers });
       }
 
+      deleteApiData(url: string): Observable<any> {
+        // Prepare the headers with the Bearer token
+        
     
+        // Make the HTTP request with the headers
+        return this.http.delete<any[]>(url);
+      }
       
       getFetchApiDataToken(url: string, token: string): Observable<any> {
         // Prepare the headers with the Bearer token

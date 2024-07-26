@@ -12,7 +12,7 @@
     <p>{{ product.description }}</p>
     <img [src]="product.thumbnail" alt="{{ product.title }} Thumbnail">
 </div> -->
-
+<h1>Example: GET Method</h1>
 <div *ngFor="let product of products">
   <img [src]="product.thumbnail" alt="{{ product.title }} Thumbnail">
   <h2>Product Details: {{ product.title }}</h2>
@@ -31,4 +31,8 @@
   <p><strong>Warranty:</strong> {{ product.warrantyInformation }}</p>
   <p><strong>Shipping:</strong> {{ product.shippingInformation }}</p>
 </div>
+<h1>Example: POST Method</h1>
+<p><strong>Title:</strong> {{ products.title }}</p>
+<p><strong>Body:</strong> {{ products.body }}</p>
+<p><strong>UserID:</strong> {{ products.userId }}</p>
 </ion-content>
