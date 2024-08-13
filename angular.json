@@ -33,7 +33,7 @@
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
             "scripts": [],
-            "baseHref": "/main/"
+            "baseHref": "/Ionic-Api/"
           },
           "configurations": {
             "production": {
